@@ -1,0 +1,17 @@
+server:
+  port: 7073
+
+spring:
+
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: root
+    url: jdbc:postgresql://localhost:5432/javaTahminDB
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+
+
